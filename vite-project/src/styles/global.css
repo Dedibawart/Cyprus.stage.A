@@ -1,0 +1,25 @@
+@import "./header.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  color: #f2f2f2;
+  line-height: 1.5;
+  background: #080808;
+}
+
+#root > div {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-top: 72px;
+}
